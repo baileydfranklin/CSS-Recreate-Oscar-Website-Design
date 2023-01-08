@@ -1,0 +1,34 @@
+.headerimg{
+    display: block;
+    width: 100%;
+}
+
+.signupcontainer{
+    border: 2px solid black;
+    border-radius: .5em;
+    background-color: ivory;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translateY(-80px);
+}
+
+section{
+    margin: 5px;
+}
+
+.title{
+    justify-self: center;
+    width: 100%;
+}
+
+.startdate{
+    grid-column: span 1;
+}
+
+.who{
+    grid-column: 3/span 1;
+}
